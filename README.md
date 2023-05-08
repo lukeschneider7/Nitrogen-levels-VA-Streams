@@ -18,6 +18,7 @@ Empty entries of the data are ignored and the others are compiled along with tim
 The percentage of changes that fit with the most common trend between the two datasets is then printed along with the max nitrogen level for the stream.
 
 Results:
+"https://user-images.githubusercontent.com/100543430/236840097-ccf94e6b-a918-4f4c-a392-c42208824906.png">
 
 
 Limitations:

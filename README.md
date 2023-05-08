@@ -8,8 +8,12 @@ This program required Daily data sets from the 10 USGS monitoring locations in V
 I realized only 5 of these locations actually had compiled the nitrogen level data into downloadable files.
 I aslo learned that the locations only had downloadable files for annual discharge and it was daily data only on nitrogen levels so I would have to work with that and evaluate nitrogen level changes over days instead of years.
 
+usgs_water_data.py was written to parse the USGS and then ask a user which stream they wanted information for.
+-numpy, pandas, csv, tkinter, datetime and matplotlib were modules that were used.
 
-A tutorial/walkthrough of how to operate the code
-A sample of results from the analysis
-Any limitations on running the program
-A brief discussion of future results.
+The main part of the file asks for user input on which stream they would like to see data for.
+The parsing data function is then called and the selected file is opened in tab seperated format.
+The user is then asked which water quality characteristic they would like to see compared to nitrogen levels between discharge, temp and dissolved oxygen.
+Empty entries of the data are ignored and the others are compiled along with time data and nitrogen and either dishcarge, temp or dissolved oxygen are both plotted over time. Nitrogen and the selected second characteristic are also paramters for the compare_data function. This function takes the change each day in nitrogen levels and the other statistic and then sees how often they either both increase/decrease, don't change, or move in the opposite direction
+The percentage of changes that fit with the most common trend between the two datasets is then printed along with the max nitrogen level for the stream.
+

@@ -17,3 +17,18 @@ The user is then asked which water quality characteristic they would like to see
 Empty entries of the data are ignored and the others are compiled along with time data and nitrogen and either dishcarge, temp or dissolved oxygen are both plotted over time. Nitrogen and the selected second characteristic are also paramters for the compare_data function. This function takes the change each day in nitrogen levels and the other statistic and then sees how often they either both increase/decrease, don't change, or move in the opposite direction
 The percentage of changes that fit with the most common trend between the two datasets is then printed along with the max nitrogen level for the stream.
 
+Results:
+
+
+Limitations:
+- Only 5 datasets for VA and only have daily not annual data for nitrogen Levels
+- Don't have option to plot more multiple parameters or creaks at the same time
+- Only max and daily changes were calculated from nitrogen data
+- compare_data function not a good indicator of relationship between nitrogen and dissolved_oxygen
+
+
+Future results:
+- Look at nitrogen levels based on how far up/downstream they are, land use in drainage area and if any local wastewater plants
+- make function to look at 1) How long change in Nitrogen levels takes to impact dissolve oxygen levels, and 2) how strong this relationship is.
+- Plot nitrogen levels at each stream on the same plot to compare how they change seasonally
+- Use data from monitoring stations in other regions and compare data to VA stations

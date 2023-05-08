@@ -18,8 +18,13 @@ Empty entries of the data are ignored and the others are compiled along with tim
 The percentage of changes that fit with the most common trend between the two datasets is then printed along with the max nitrogen level for the stream.
 
 Results:
-
+- Image of Dissolved oxygen next to Nitrogen plot for stream and comparison data
+- Dissolved oxygen seems to be the only parameter related to Nitrogen levels although this could only be seen graphically and not through the daily changes
+- Plots support the notion that an increase in Nitrogen will lead to a decrease in Dissolved oxygen a month or two later
 <img width="1440" alt="Screenshot 2023-05-08 at 9 44 19 AM" src="https://user-images.githubusercontent.com/100543430/236840257-b9278631-ef01-4042-89df-cb7b8587693e.png">
+
+![image](https://user-images.githubusercontent.com/100543430/236840465-4ae1e126-8f5e-412a-ba68-eefb2704c168.png)
+
 
 
 Limitations:

@@ -9,7 +9,6 @@ I realized only 5 of these locations actually had compiled the nitrogen level da
 I aslo learned that the locations only had downloadable files for annual discharge and it was daily data only on nitrogen levels so I would have to work with that and evaluate nitrogen level changes over days instead of years.
 
 
-The main programs written to analyze the data
 A tutorial/walkthrough of how to operate the code
 A sample of results from the analysis
 Any limitations on running the program
